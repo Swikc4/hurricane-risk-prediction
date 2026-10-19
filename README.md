@@ -25,7 +25,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#results-and-what-they-mean">Results and What They Mean</a></li>
     <li><a href="#known-issues-to-fix-before-rerunning">Known Issues to Fix Before Rerunning</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -98,19 +97,7 @@ Before rerunning Week 3, change `Y_test` to `y_test` in the evaluation cell and 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contact
-
-Swikriti KC - [LinkedIn](https://www.linkedin.com/in/swikriti-kc/)
-
-Project Link: [https://github.com/Swikc4/hurricane-risk-prediction](https://github.com/Swikc4/hurricane-risk-prediction)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Acknowledgments
 
 * [OpenFEMA Housing Assistance Owners dataset](https://www.fema.gov/about/openfema/data-sets)
 * Data Science and Machine Learning Club at Baruch College
-* This is a copy of the project from my old account: [Swi-kc/Hurricane-Risk-Prediction](https://github.com/Swi-kc/Hurricane-Risk-Prediction)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
