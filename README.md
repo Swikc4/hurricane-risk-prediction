@@ -4,7 +4,7 @@
 <div align="center">
   <h3 align="center">Hurricane Risk Prediction</h3>
   <p align="center">
-    ZIP-level hurricane damage analysis for Miami-Dade County with a Random Forest model - a Data Science and Machine Learning Club project at Baruch College
+    ZIP-level hurricane damage analysis for Miami-Dade County with a Random Forest model, a Data Science and Machine Learning Club project at Baruch College
     <br />
     <a href="https://github.com/Swikc4/hurricane-risk-prediction"><strong>Explore the repo »</strong></a>
   </p>
@@ -75,9 +75,9 @@ The notebooks were written in Google Colab and use manual file uploads, so they 
 
 The project runs in three notebooks:
 
-1. **Week 1: Hurricane Damage Data Gathering** - pulls Miami-Dade housing-assistance records from the live OpenFEMA API, keeps ZIP code, disaster number, and damage amount, drops missing values, and plots a damage-distribution histogram and a top-10 ZIP bar chart. The saved output (`dataWeek1_clean.csv`, 1,000 rows) is included in the repo. The API call returns only the first page of results, so this file is not a complete damage history.
-2. **Week 2: FeatureEngineering** - groups the cleaned records by ZIP code (192 ZIPs), builds the average-damage, record-count, and mock-exposure features, labels the top 25% of ZIPs by total recorded damage as high risk, and saves the 80/20 train/test split (`X_train`, `X_test`, `y_train`, `y_test` - all included).
-3. **Week 3: RandomForest** - loads the four saved CSVs, trains a Random Forest classifier (200 trees, max depth 5, balanced class weights), and prints a model report card with accuracy and ROC-AUC plus a feature-importance chart.
+1. **Week 1: Hurricane Damage Data Gathering**: pulls Miami-Dade housing-assistance records from the live OpenFEMA API, keeps ZIP code, disaster number, and damage amount, drops missing values, and plots a damage-distribution histogram and a top-10 ZIP bar chart. The saved output (`dataWeek1_clean.csv`, 1,000 rows) is included in the repo. The API call returns only the first page of results, so this file is not a complete damage history.
+2. **Week 2: FeatureEngineering**: groups the cleaned records by ZIP code (192 ZIPs), builds the average-damage, record-count, and mock-exposure features, labels the top 25% of ZIPs by total recorded damage as high risk, and saves the 80/20 train/test split (`X_train`, `X_test`, `y_train`, `y_test`, all included).
+3. **Week 3: RandomForest**: loads the four saved CSVs, trains a Random Forest classifier (200 trees, max depth 5, balanced class weights), and prints a model report card with accuracy and ROC-AUC plus a feature-importance chart.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
